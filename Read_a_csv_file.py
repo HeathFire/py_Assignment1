@@ -9,7 +9,7 @@ with open('Cruz.csv', mode ='r') as file:
             print(lines)
 
 #Method 2
-import csv
+#import csv
 with open('Cruz.csv', mode ='r')as file:
   csvFile = csv.reader(file)
   for lines in csvFile:
